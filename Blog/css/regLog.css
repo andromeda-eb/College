@@ -1,0 +1,54 @@
+div.regLogForm{
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 15px #55D6AA;
+    color: #FFF;
+    margin: 0 auto;
+    text-align:center;
+    width:30%;
+    padding-bottom:25px;
+}
+
+div.regLogForm h2{
+    background-color: #55D6AA;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0 0 5% 0;
+    padding: 20px;
+    text-transform: uppercase;
+    position:relative;
+}
+
+.regLogForm input[placeholder] { 
+    padding:1%;
+    text-align:center;
+}
+
+.regLogForm input[type='file'] {
+  display:none;
+}
+
+.regLogForm .submit, .regLogForm #browseImage{
+    background: none;
+    border: 1px solid #55D6AA;
+    border-radius: 4px;
+    color: #ccc;
+    font-size: 18px;
+    height: 10%;
+    margin: 20px 0 0px 0;
+    overflow:hidden;
+    padding: 10px 20px;
+    transition: .6s;
+    min-width:25%;
+}
+
+.regLogForm .submit:hover, .regLogForm #browseImage:hover{
+    background-color:#55D6AA;
+    color: #000;
+}
+
+.regLogError{
+    padding: 10px 0 10px 0px;
+    margin:0 auto;
+}

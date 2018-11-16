@@ -1,0 +1,156 @@
+@import url('stickyNav.css');
+@import url('regLog.css');
+@import url('comments.css');
+@import url('commentInsert.css');
+@import url('tags.css');
+@import url('search.css');
+@import url('chat.css');
+
+body{
+	background-color:#0F0F0F;
+}
+
+.container{
+    margin:auto;
+    position:relative;
+    width:85%;
+    font-family:Quicksand;
+}
+
+header{
+	height:15vh;
+}
+
+.indexBox{
+	border:2px solid #55D6AA;
+	color:#FFF;
+	display:inline-block;
+	margin-left: -100%;
+	min-width: 20%;
+	min-height:200px;
+	text-align:center;
+	transition: .5s ease;
+}
+
+.indexBox:hover{
+	background-color:#55D6AA;
+	color:#0F0F0F;
+}
+
+.indexBox a{
+	color:#55D6AA;
+	font-weight: 100;
+	letter-spacing: 4px;
+	text-decoration: none;
+	width:100px;
+}
+
+.indexBox:hover a{
+	color:#0F0F0F;
+}
+
+.indexBox .tag{
+	background:#e8491d;
+	border-radius:4px;
+	font-size:85%;
+	padding: 0.1em 0.75em;
+    margin: 0.25em 0.2em;
+}
+
+.indexBox:hover .tag{
+	background: #0F0F0F;
+	color: #FFF;
+}
+
+.createBoxWrapper{
+	text-align:center;
+	margin-top:-100%;
+	transition: .7s ease;
+}
+
+.createBox{
+    border:1px solid white;
+    display:inline-block;
+    min-width:50%;
+    transition: .7s ease;
+}
+
+.createBox img{
+	clear:both;
+	float:left;
+	margin: 10px 10px 0 10px;
+}
+
+.createBox input[type='text']{
+	float:right;
+	margin-right: 30px;
+	text-align:center;
+}
+
+.createBoxTitle{
+	margin: 100px 0 0 0;
+}
+
+.createBoxTextarea{
+	margin: 10px 0 10px 0;
+	min-height: 200px;
+	text-align:center;
+	width: 99%;
+}
+
+.createBox input[type=text]:focus, .createBox .createBoxTextarea:focus{
+	border-color:dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.createBox .submit{
+    background: none;
+    border: 1px solid #55D6AA;
+    border-radius: 4px;
+    color: #ccc;
+    font-size: 18px;
+    height: 10%;
+    margin: 20px 0 20px 0;
+    overflow:hidden;
+    padding: 10px 20px;
+    transition: .6s;
+    min-width:25%;
+}
+
+.createBox .submit:hover{
+    background-color:#55D6AA;
+    color: #0F0F0F;
+}
+
+.viewBox{
+	height:auto;
+	margin:auto;
+	margin-top:-100%;
+	width: 60%;
+	background: #0F0F0F;
+	color:#FFF;
+	padding:40px;
+	text-align:center;
+	border:1px solid #556DAA;
+	transition:.5s ease;
+	z-index:-10;
+} 
+
+.vote{
+	float:left;
+	clear:both;
+	cursor:pointer;
+	position:absolute;
+}
+
+.like{
+	color:#4BB543;
+}
+
+.dislike{
+	color:#FF0033;
+}
+
+.commentsEnable{
+	float:right;
+}

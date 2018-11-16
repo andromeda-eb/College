@@ -1,0 +1,58 @@
+.commentInsert{
+	height: 150px;
+	width:auto;
+	margin: 10px;
+	border: 1px solid #000;
+	position:relative;
+}
+
+.commentInsert h3.whoSays{
+	background: #55D6AA; /*556DAA nice blue color*/
+	color:#FFF;
+	height: 30px;
+	line-height: 27px;
+	font-size:14px;
+	margin: 0 0px 0 0px;
+	padding-left:10px;
+	border-bottom: 1px solid #000;
+	width: auto;
+}
+
+.commentInsert .commentInsertContainer{
+	width: auto;
+	min-height:102px;
+	position:relative;
+}
+
+.commentInsert textarea.commentInsertText{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right:0px;
+	border: none;
+	width: 99.9%;
+	height: 117%;
+	text-align:center;
+	background:#0F0F0F;
+	color:#FFF;
+}
+
+.commentPostBtnWrapper{
+	position:absolute;
+	top: 0;
+	right:0px;
+	width: 60px;
+	height: 30px;
+	color:#FFF;
+	font-size:14px;
+	background:#55D6AA;
+	text-align:center;
+	cursor:pointer;
+	border:none;
+}
+
+.commentPostBtnWrapper:hover{
+	background:#0F0F0F;
+	color:#55D6AA;
+}
