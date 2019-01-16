@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    font-family:helvetica;
+    color:#95d4cc;
+}input{
+    color:#333;
+    height:30px;
+    border:1px solid grey;
+    border-radius:2px;
+}input[type=submit]{
+    padding:0px 10px 0px 10px;
+}ul{
+    list-style-type:none;
+}#header{
+    padding:20px 0px 20px 0px;
+    width:100%;
+    background-color:#171A21;
+}#header_content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}#header_content *{
+    flex-grow:0;
+    flex-shrink:0;
+}#logo{
+    padding-left:10px;
+    flex-basis:25%;
+}#search{
+    flex-basis:50%;
+    margin-left:auto;
+    margin-right:auto;
+}#search_bar{
+    width:300px;
+}#advanced_search_button{
+    margin-left:200px;
+    background-color:#171A21;
+    cursor:pointer;
+}#advanced_search{
+    display:none;
+}#advanced_search label{
+    display:inline-block;
+    width:145px;
+}#advanced_search input{
+    width:150px;
+    height:20px;
+    margin-top:3px;
+}#search_button{
+    height:32px;
+}#account_control{
+    padding-right:10px;
+}#account_control *{
+    color:#799f9f;
+    text-decoration:none;
+}#login_form, #register_form{
+    padding:10px;
+}
+
+#game_top{
+    display:flex;
+    justify-content:space-between;
+}.game_title{
+    font-size:30px;
+    font-weight:normal;
+}#game_cover{
+    display:block;
+    width:600px;
+    float:left;
+}#game_description{
+}
+
+body{
+    background-color:#1B2838;
+}.wide{
+    max-width:1600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2B3848;
+}.medium{
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}.thin{
+    max-width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2B3848;
+}
+
+#register_button, #login_button{
+    color:black;
+}
