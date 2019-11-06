@@ -1,0 +1,68 @@
+#main_nav a
+{
+	text-decoration:none;
+}
+
+#main_nav ul
+{
+	list-style-type: none;
+	padding:10px;
+}
+
+#main_nav ul li 
+{
+	display:inline;
+	padding:20px;
+}
+
+#main_nav ul li a
+{
+	text-decoration: none;
+	position:relative;
+}
+
+#main_nav ul li a:hover
+{
+	color:red;
+}
+
+#main_nav ul li a:before 
+{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:1px;
+	bottom:0;
+	left:0;
+	background-color:#000;
+	visibility:;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#main_nav ul li a:hover:before
+{
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform:scaleX(1);
+}
+
+#main_box 
+{
+	clear:both;
+	border:1px solid black;
+	text-align:center;
+	min-height:200px;
+}
+
+#main_nav_left 
+{
+	float:left;
+}
+
+#main_nav_right 
+{
+	float:right;
+}

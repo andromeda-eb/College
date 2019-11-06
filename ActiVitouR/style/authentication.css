@@ -1,0 +1,21 @@
+#authentication_box
+{
+	border:;
+	display:inline-block;
+	min-width: 350px;
+}
+
+#authentication_box form
+{
+	padding:10px;
+}
+
+#authentication_box form label
+{
+	text-align:left;
+}
+
+#authentication_box form input 
+{
+	float:right;
+}
